@@ -37,3 +37,6 @@ sample_data(physeq) <- sample_data(metadata)
 # Verify
 print(physeq)
 print(as.data.frame(sample_data(physeq)))
+
+#rarefraction curve 
+rarecurve(otu_mat, step=500, col=c(rep("maroon", 3), rep("navy", 3)), label=TRUE, main="Rarefaction Curves")
