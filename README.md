@@ -30,14 +30,25 @@ Species-level abundance was re-estimated using Bracken v2.8 (Lu et al., 2017). K
 
 ### Diversity Analysis and Visualization
 
-All downstream analyses were performed in R v4.5.2. The BIOM file was imported into a phyloseq object (McMurdie & Holmes, 2013) using the `biomformat` and `phyloseq` packages. Sample metadata including diet group assignment was added to the phyloseq object.
+All downstream analyses were performed in R v4.5.2. The BIOM file was imported into a phyloseq object (McMurdie & Holmes, 2013) using the `biomformat` v1.38.0 and `phyloseq`v1.54.2 packages. Sample metadata including diet group assignment was added to the phyloseq object.
 
-**Rarefaction** curves were generated using the `vegan` package (Oksanen et al., 2022) to assess whether sequencing depth was sufficient to capture community diversity. A plateau in the rarefaction curve indicates that increasing sequencing depth is unlikely to reveal substantially more species, providing confidence that observed richness reflects true community composition rather than sampling limitation.
+**Rarefaction** curves were generated using the `vegan` v2.7.2 package (Oksanen et al., 2022) to assess whether sequencing depth was sufficient to capture community diversity. A plateau in the rarefaction curve indicates that increasing sequencing depth is unlikely to reveal substantially more species, providing confidence that observed richness reflects true community composition rather than sampling limitation.
 
 **Taxonomic abundance** was visualized at the phylum, class, order, genus, and species levels using stacked bar charts after transformation to relative abundance (`transform_sample_counts`). Relative abundance transformation was used rather than raw counts because samples differ in total classified read depth, and raw counts would mix up true biological differences with sequencing depth differences. Taxa were aggregated using `tax_glom()` and the top 10 (20 for species) taxa by mean abundance were retained, with the remainder grouped as "Other" to produce legible figures.
 
 **Alpha diversity** was estimated using `estimate_richness()` from phyloseq, including observed species richness, Shannon diversity index, and Simpson dominance index. Chao1 richness estimation was excluded because Bracken's minimum read threshold of 10 reads removes low-abundance taxa, eliminating singletons from the data. Chao1 relies on singleton counts to estimate unobserved species richness, without singletons it produces unreliable estimates (Cassol et al., 2025). Shannon entropy and Simpson's index were used instead, as both capture richness and evenness and neither requires singleton counts. Shannon is more sensitive to rare taxa while Simpson is more sensitive to dominant taxa. (Cassol et al., 2025). Differences in alpha diversity between diet groups were assessed using the Wilcoxon rank-sum test, a non-parametric test appropriate for small sample sizes where normality cannot be assumed.
 
 **Beta diversity** was assessed using two distance metrics: Bray-Curtis and Jaccard. Bray-Curtis was chosen as the primary metric because it accounts for differences in taxon abundance between communities and is the most widely used beta diversity metric in gut microbiome studies (Lozupone et al., 2011). Jaccard distance was included to see whether observed differences between groups reflect changes in which taxa are present versus changes in their relative proportions, if both metrics produce similar group separation, the communities differ in composition, not just abundance (Lozupone et al., 2011). Principal Coordinates Analysis (PCoA) was performed on both distance matrices using `ordinate()`. Bray-Curtis NMDS ordination was also computed. NMDS optimizes rank-order preservation of distances and does not assume linearity, providing a robustness check on the PCoA results. Statistical significance of group separation was tested using PERMANOVA (`adonis2()`)which tests whether the centroids and dispersion of groups differ more than expected by chance using permutation of the distance matrix (Anderson, 2001).
+
+**Differential abundance** analysis was done using ANCOM-BC2 (Lin & Peddada, 2023) via the `ANCOMBC` Bioconductor package (v2.12.0). ANCOM-BC2 was selected over DESeq2 or Wilcoxon tests because metagenomics count data is compositional and observed abundances are relative rather than absolute, which violates the independence assumptions of standard statistical tests (Gloor et al., 2017). ANCOM-BC2 models and corrects for compositional bias and has been shown to have lower false positive rates than other methods in benchmarking studies (Nearing et al., 2022). The Holm multiple testing correction was applied rather than Benjamini-Hochberg (BH/FDR) because Holm provides strong family-wise error rate control, which is preferred in a small-sample (Lin & Peddada, 2023). Structural zero detection was enabled (`struc_zero = TRUE`) to distinguish taxa that are truly absent in a group. A minimum library size of 1000 reads (`lib_cut = 1000`) was set to exclude any samples with very low coverage. Taxa present in fewer than 10% of samples were excluded (`prv_cut = 0.10`) to remove rare taxa with insufficient data for reliable inference, a standard filtering step recommended by ANCOM-BC2 developers.
+
+All analyses were conducted on Compute Canada's Narval cluster.
+
+---
+
+## Results
+
+### Sequencing Depth and Quality
+
 
 
