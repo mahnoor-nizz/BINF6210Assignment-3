@@ -121,4 +121,30 @@ Alpha diversity estimates were summarized in Table 2 and visualized in Figure 5.
 
 ---
 
+### Beta Diversity
+
+Beta diversity was assessed using Bray Curtis dissimilarity and Jaccard distance. PCoA plots are shown in Figures 6 and 7. For Bray Curtis the PCoA suggests partial separation between diet groups along PC1, which explained 60.5% of variance, with PC2 explaining a further 16.3%. However, because of the small sample size there was overlap between groups. The Jaccard PCoA was similar with PC1 explaining 47.7% and PC2 explaining 17.3% of variance. PERMANOVA confirmed that diet group did not explain a statistically significant proportion of community variance (Table 3). 
+---
+
+![Bray-Curtis PCoA](https://github.com/mahnoor-nizz/BINF6210Assignment-3/blob/main/Figures/fig7a_beta_braycurtis_pcoa.png)
+
+**Figure 6.** Principal Coordinates Analysis (PCoA) of Bray-Curtis dissimilarity. Each point represents one sample, coloured by diet group (red = omnivore, blue = vegan). PC1 and PC2 explain 60.5%  and 16.3% of total variance, respectively. Partial separation between groups is visible along PC1, though PERMANOVA did not detect a statistically significant difference (R² = 0.143, p = 0.70).
+
+---
+
+![Bray-Curtis NMDS](https://github.com/mahnoor-nizz/BINF6210Assignment-3/blob/main/Figures/fig7b_beta_braycurtis_nmds.png)
+
+**Figure 7.** Non-metric Multidimensional Scaling (NMDS) of Bray-Curtis dissimilarity. The near-zero stress value (< 0.001) indicates the distance structure is well-represented in two dimensions, though this also reflects the very small dataset size (n = 6). Grouping pattern is consistent with the PCoA.
+
+---
+
+**Table 3.** PERMANOVA results for beta diversity.
+
+| Distance Metric | R² | F-statistic | p-value | Permutations |
+|----------------|-----|-------------|---------|-------------|
+| Bray-Curtis | 0.143 | 0.666 | 0.70 | 720 |
+| Jaccard | 0.161 | 0.765 | 0.70 | 720 |
+
+---
+
 
