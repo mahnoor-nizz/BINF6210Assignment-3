@@ -56,9 +56,29 @@ After quality filtering with fastp, all six samples retained high read counts su
 
 ![Rarefaction Curves](https://github.com/mahnoor-nizz/BINF6210Assignment-3/blob/main/Figures/fig0_rarefaction.png)
 
-**Figure 1.** Rarefaction curves for all six samples. Red = omnivore samples (SRR8146935, SRR8146936, SRR8146938); blue = vegan samples (SRR8146944, SRR8146963, SRR8146968). Curves approaching plateau indicate adequate sequencing depth. The minimum count of 14 (rather than 1) reflects Bracken's minimum read threshold, which removes taxa with fewer than 10 reads.
+**Figure 1.** Rarefaction curves for all six samples. Red = omnivore samples (SRR8146935, SRR8146936, SRR8146938); blue = vegan samples (SRR8146944, SRR8146963, SRR8146968). Curves approaching plateau indicate adequate sequencing depth.
 
 ---
+
+### Taxonomic Composition
+
+Taxonomic classification with Kraken2 and Bracken identified between 68 and 123 species per sample (Table 1). Total classified reads per sample ranged from 348,713 to 642,499. The gut microbiomes of all samples were dominated by the phyla Firmicutes (Bacillota) and Bacteroidetes (Bacteroidota), consistent with the known composition of the healthy human gut microbiome (Human Microbiome Project Consortium, 2012).
+
+---
+
+**Table 1.** Summary of classified reads and species richness per sample.
+
+| Sample | Diet | Classified Reads | Species Detected |
+|--------|------|-----------------|-----------------|
+| SRR8146935 | Omnivore | 399,593 | 111 |
+| SRR8146936 | Omnivore | 463,048 | 68 |
+| SRR8146938 | Omnivore | 348,713 | 123 |
+| SRR8146944 | Vegan | 417,665 | 81 |
+| SRR8146963 | Vegan | 393,352 | 87 |
+| SRR8146968 | Vegan | 642,499 | 93 |
+
+---
+
 
 
 
