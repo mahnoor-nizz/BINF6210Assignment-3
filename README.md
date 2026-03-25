@@ -102,5 +102,23 @@ Phylum-level relative abundance is shown in Figure 2. Both diet groups had Bacil
 
 ---
 
+### Alpha Diversity
+
+Alpha diversity estimates were summarized in Table 2 and visualized in Figure 5. Omnivore samples had a median observed richness of 111 species, compared to 87 in vegan samples. Shannon diversity was higher in omnivore samples compared to vegan samples. Simpson dominance was also higher in omnivore samples. None of the alpha diversity differences between groups reached statistical significance by Wilcoxon rank-sum test (Observed: p = 0.70; Shannon: p = 0.40; Simpson: p = 0.70), likely reflecting the small sample size of n = 3 per group.
+
+**Table 2.** Alpha diversity summary by diet group.
+
+| Diet | Median Observed | Range Observed | Median Shannon | Range Shannon | Median Simpson |
+|------|----------------|---------------|---------------|--------------|---------------|
+| Omnivore | 111 | 68–123 | 3.10 | 1.89–3.42 | 0.914 | 
+| Vegan | 87 | 81–93 | 3.08 | 1.70–2.30 | 0.930 |
+
+---
+
+![Alpha Diversity](https://github.com/mahnoor-nizz/BINF6210Assignment-3/blob/main/Figures/fig6_alpha_diversity.png)
+
+**Figure 5.** Alpha diversity by diet group. Observed species richness, Shannon diversity, and Simpson dominance are shown for omnivore (red) and vegan (blue) samples. Each point represents one sample. No significant differences were detected between groups (Wilcoxon rank-sum test, all p > 0.05). Chao1 was excluded as Bracken's minimum read threshold eliminates singletons required for it.
+
+---
 
 
