@@ -80,6 +80,27 @@ Taxonomic classification with Kraken2 and Bracken identified between 68 and 123 
 ---
 
 
+Phylum-level relative abundance is shown in Figure 2. Both diet groups had Bacillota and Bacteroidota in highest number, with the ratio between the two varying between individuals. Class, order, genus, and species-level composition plots were created, showing the high degree of inter-individual variability characteristic of gut microbiome studies.
+
+---
+
+![Phylum-Level Relative Abundance](https://github.com/mahnoor-nizz/BINF6210Assignment-3/blob/main/Figures/fig1_abundance_phylum.png)
+
+**Figure 2.** Phylum-level relative abundance for omnivore (left) and vegan (right) samples. Each bar represents one sample. The top 10 phyla by mean abundance are shown; remaining phyla are grouped as "Other". Both groups are dominated by Bacillota (Firmicutes) and Bacteroidota (Bacteroidetes).
+
+---
+
+![Genus-Level Relative Abundance](https://github.com/mahnoor-nizz/BINF6210Assignment-3/blob/main/Figures/fig4_abundance_genus.png)
+
+**Figure 3.** Genus-level relative abundance for omnivore (left) and vegan (right) samples. Top 10 genera by mean abundance are shown. *Segatella*, *Bacteroides*, and *Alistipes* are among the most prominent genera, with *Segatella* notably dominant in several vegan samples, consistent with its known association with plant-based diets.
+
+---
+
+![Species-Level Relative Abundance](https://github.com/mahnoor-nizz/BINF6210Assignment-3/blob/main/Figures/fig5_abundance_species.png)
+
+**Figure 4.** Species-level relative abundance showing the top 20 species by mean abundance. *Segatella copri*, *Alistipes putredinis*, and *Bacteroides uniformis* were among the most abundant species detected. *Segatella copri* showed particularly high relative abundance in vegan samples, consistent with its well-documented enrichment in plant-based gut microbiomes (Dahl et al., 2019).
+
+---
 
 
 
