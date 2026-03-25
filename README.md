@@ -124,6 +124,7 @@ Alpha diversity estimates were summarized in Table 2 and visualized in Figure 5.
 ### Beta Diversity
 
 Beta diversity was assessed using Bray Curtis dissimilarity and Jaccard distance. PCoA plots are shown in Figures 6 and 7. For Bray Curtis the PCoA suggests partial separation between diet groups along PC1, which explained 60.5% of variance, with PC2 explaining a further 16.3%. However, because of the small sample size there was overlap between groups. The Jaccard PCoA was similar with PC1 explaining 47.7% and PC2 explaining 17.3% of variance. PERMANOVA confirmed that diet group did not explain a statistically significant proportion of community variance (Table 3). 
+
 ---
 
 ![Bray-Curtis PCoA](https://github.com/mahnoor-nizz/BINF6210Assignment-3/blob/main/Figures/fig7a_beta_braycurtis_pcoa.png)
