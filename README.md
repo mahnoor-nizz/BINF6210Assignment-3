@@ -62,7 +62,7 @@ After quality filtering with fastp, all six samples retained high read counts su
 
 ### Taxonomic Composition
 
-Taxonomic classification with Kraken2 and Bracken identified between 68 and 123 species per sample (Table 1). Total classified reads per sample ranged from 348,713 to 642,499. The gut microbiomes of all samples were dominated by the phyla Firmicutes (Bacillota) and Bacteroidetes (Bacteroidota), consistent with the known composition of the healthy human gut microbiome (Human Microbiome Project Consortium, 2012).
+Taxonomic classification with Kraken2 and Bracken identified between 68 and 123 species per sample (Table 1). Total classified reads per sample ranged from 348,713 to 642,499. The gut microbiomes of all samples were dominated by the phyla Bacillota and Bacteroidota, consistent with the known composition of the healthy human gut microbiome (Human Microbiome Project Consortium, 2012).
 
 ---
 
