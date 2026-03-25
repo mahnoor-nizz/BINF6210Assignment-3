@@ -50,5 +50,16 @@ All analyses were conducted on Compute Canada's Narval cluster.
 
 ### Sequencing Depth and Quality
 
+After quality filtering with fastp, all six samples retained high read counts suitable for metagenomics analysis. Rarefaction curves are shown in Figure 1. All samples approached plateau, indicating that sequencing depth was sufficient to capture the majority of detectable species in these samples given the database used.
+
+---
+
+![Rarefaction Curves](https://github.com/mahnoor-nizz/BINF6210Assignment-3/blob/main/Figures/fig0_rarefaction.png)
+
+**Figure 1.** Rarefaction curves for all six samples. Red = omnivore samples (SRR8146935, SRR8146936, SRR8146938); blue = vegan samples (SRR8146944, SRR8146963, SRR8146968). Curves approaching plateau indicate adequate sequencing depth. The minimum count of 14 (rather than 1) reflects Bracken's minimum read threshold, which removes taxa with fewer than 10 reads.
+
+---
+
+
 
 
