@@ -166,23 +166,23 @@ Structural zero analysis identified 17 genera completely absent in one diet grou
 
 | Taxon | Absent in Omnivore | Absent in Vegan |
 |-------|-------------------|----------------|
-| *Rothia* | | X |
-| *Cutibacterium* | | X |
-| *Eggerthella* | X | |
-| *Gordonibacter* | X | |
-| *Christensenella* | | X |
-| *Clostridium* | | X |
-| *Anaerotruncus* | X | |
-| *Pseudoflavonifractor* | | X |
+| *Rothia* | | **X** |
+| *Cutibacterium* | | **X** |
+| *Eggerthella* | **X** | |
+| *Gordonibacter* | **X** | |
+| *Christensenella* | | **X** |
+| *Clostridium* | | **X** |
+| *Anaerotruncus* | **X** | |
+| *Pseudoflavonifractor* | | **X** |
 | *Hungatella* | **X** | |
-| *Wansuia* | X | |
-| *Wujia* | | X |
-| *Holdemania* | | X |
-| *Phascolarctobacterium* | | X |
-| *Veillonella* | | X |
-| *Shutterella* | X | |
-| *Haemophilus* | | X |
-| *Endlipuvirus* | | X |
+| *Wansuia* | **X** | |
+| *Wujia* | | **X** |
+| *Holdemania* | | **X** |
+| *Phascolarctobacterium* | | **X** |
+| *Veillonella* | | **X** |
+| *Shutterella* | **X** | |
+| *Haemophilus* | | **X** |
+| *Endlipuvirus* | | **X** |
 
 ---
 
