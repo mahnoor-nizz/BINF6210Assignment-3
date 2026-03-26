@@ -156,7 +156,7 @@ Structural zero analysis identified 17 genera completely absent in one diet grou
 
 ---
 
-![Differential Abundance Dot Plot](figures/fig8_differential_abundance.png)
+![Differential Abundance Dot Plot](https://github.com/mahnoor-nizz/BINF6210Assignment-3/blob/main/Figures/fig8_differential_abundancev2.png)
 
 **Figure 8.** ANCOM-BC2 differential abundance results at the genus level. Each point represents one genus; the x-axis shows the log fold change (vegan vs. omnivore). Error bars indicate the standard error of the log fold change estimate. The red dashed line indicates no difference (LFC = 0). Points are coloured by direction: blue = higher in vegan, red = higher in omnivore. No genera reached statistical significance after Holm correction (n = 3 per group).
 
