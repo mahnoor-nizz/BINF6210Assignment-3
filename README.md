@@ -10,6 +10,8 @@
 
 ---
 
+## Introduction
+
 The human gut microbiome contains a complex community of microorganisms that play an essential role in the host’s metabolism and immune function. [^8] The composition of the gut microbiome is affected by a range of factors including genetics, age, geographic origin, antibiotic use, and diet, making it highly variable between individuals. [^9]
 
 Diet is known to be one of the strongest factors effecting gut microbial composition. Plant based diets are rich in dietary fibre and complex carbohydrates, serving as substrates for microbial fermentation and driving the production of short-chain fatty acids (SCFAs). [^?21] While omnivorous diets are characterized by higher intakes of animal protein and saturated fat, which have been associated with enrichment of bile tolerant species and reduced SCFA-producing bacteria. [^19] Understanding differences associated with diet has implications for human health, as specific microbes and their metabolites have been linked to inflammation, metabolic syndrome, and colorectal cancer risk.
@@ -217,7 +219,7 @@ In conclusion, while no statistically significant differences between vegan and 
 
 ---
 
-##References
+## References
 
 [^1]: Anderson, M. J. (2001). A new method for non-parametric multivariate analysis of variance. Austral Ecology, 26(1), 32–46.
 [^2]: Cassol, M., et al. (2025). A comprehensive guide to alpha diversity metrics in microbiome research. Scientific Reports, 14, 27864.
