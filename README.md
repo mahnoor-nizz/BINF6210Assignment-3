@@ -248,4 +248,4 @@ In conclusion, while no statistically significant differences between vegan and 
 [^25]: Sokol, H., et al. (2009). Faecalibacterium prausnitzii is an anti-inflammatory commensal bacterium identified by gut microbiota analysis of Crohn disease patients. PNAS, 105(43), 16731–16736.
 [^26]: Takeuchi, T., et al. (2021). Lactic acid bacteria and Phocaeicola vulgatus in gut microbiome shifts. Cell Host & Microbe.
 [^27]: Waters, J. L., & Ley, R. E. (2019). The human gut bacteria Christensenellaceae are widespread, heritable, and associated with health. BMC Biology, 17, 83.
-[^28}: De Filippis, Francesca et al. “Distinct Genetic and Functional Traits of Human Intestinal Prevotella copri Strains Are Associated with Different Habitual Diets.” Cell host & microbe vol. 25,3 (2019): 444-453.e3. doi:10.1016/j.chom.2019.01.004
+[^28]: De Filippis, Francesca et al. “Distinct Genetic and Functional Traits of Human Intestinal Prevotella copri Strains Are Associated with Different Habitual Diets.” Cell host & microbe vol. 25,3 (2019): 444-453.e3. doi:10.1016/j.chom.2019.01.004
