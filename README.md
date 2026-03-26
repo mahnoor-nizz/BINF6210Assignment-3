@@ -12,7 +12,7 @@
 
 ## Introduction
 
-The human gut microbiome contains a complex community of microorganisms that play an essential role in the host’s metabolism and immune function. [^8] The composition of the gut microbiome is affected by a range of factors including genetics, age, geographic origin, antibiotic use, and diet, making it highly variable between individuals. [^9]
+The human gut microbiome contains a complex community of microorganisms that play an essential role in the host’s metabolism and immune function. The composition of the gut microbiome is affected by a range of factors including genetics, age, geographic origin, antibiotic use, and diet, making it highly variable between individuals. [^9]
 
 Diet is known to be one of the strongest factors effecting gut microbial composition. Plant based diets are rich in dietary fibre and complex carbohydrates, serving as substrates for microbial fermentation and driving the production of short-chain fatty acids (SCFAs). [^?21] While omnivorous diets are characterized by higher intakes of animal protein and saturated fat, which have been associated with enrichment of bile tolerant species and reduced SCFA-producing bacteria. [^19] Understanding differences associated with diet has implications for human health, as specific microbes and their metabolites have been linked to inflammation, metabolic syndrome, and colorectal cancer risk.
 
@@ -222,25 +222,45 @@ In conclusion, while no statistically significant differences between vegan and 
 ## References
 
 [^1]: Anderson, M. J. (2001). A new method for non-parametric multivariate analysis of variance. Austral Ecology, 26(1), 32–46.
-[^2]: Cassol, M., et al. (2025). A comprehensive guide to alpha diversity metrics in microbiome research. Scientific Reports, 14, 27864.
-[^3]: Chen, S., Zhou, Y., Chen, Y., & Gu, J. (2018). fastp: an ultra-fast all-in-one FASTQ preprocessor. Bioinformatics, 34(17), i884–i890.
+
+[^2]:  Cassol, Ignacio et al. “Key features and guidelines for the application of microbial alpha diversity metrics.” *Scientific reports* vol. 15,1 622. 3 Jan. 2025, doi:10.1038/s41598-024-77864-y 
+
+[^3]:  Chen, Shifu et al. “fastp: an ultra-fast all-in-one FASTQ preprocessor.” *Bioinformatics (Oxford, England)* vol. 34,17 (2018): i884-i890. doi:10.1093/bioinformatics/bty560
+
 [^4]: Dahl, W. J., et al. (2019). Diet, nutrients, and the microbiome. Cell Host & Microbe, 25(3), 332–346.
-[^5]: Durazzi, F., et al. (2021). Comparison between 16S rRNA and shotgun sequencing data for the taxonomic characterization of the gut microbiota. Scientific Reports, 11, 3585.
-[^6]: Flint, H. J., Scott, K. P., Duncan, S. H., Louis, P., & Forano, E. (2012). Microbial degradation of complex carbohydrates in the gut. Gut Microbes, 3(4), 289–306.
-[^7]: Gloor, G. B., Macklaim, J. M., Pawlowsky-Glahn, V., & Egozcue, J. J. (2017). Microbiome datasets are compositional: and this is not optional. Frontiers in Microbiology, 8, 2224.
-[^8]: Grice, E. A., & Segre, J. A. (2012). The human microbiome: our second genome. Annual Review of Genomics and Human Genetics, 13, 151–170.
+
+[^5]:  Durazzi, Francesco et al. “Comparison between 16S rRNA and shotgun sequencing data for the taxonomic characterization of the gut microbiota.” *Scientific reports* vol. 11,1 3030. 4 Feb. 2021, doi:10.1038/s41598-021-82726-y
+
+[^6]:  Flint, Harry J et al. “Microbial degradation of complex carbohydrates in the gut.” *Gut microbes* vol. 3,4 (2012): 289-306. doi:10.4161/gmic.19897 
+
+[^7]:  Gloor, Gregory B et al. “Microbiome Datasets Are Compositional: And This Is Not Optional.” *Frontiers in microbiology* vol. 8 2224. 15 Nov. 2017, doi:10.3389/fmicb.2017.02224
+
+[^8]:  Grice, Elizabeth A, and Julia A Segre. “The human microbiome: our second genome.” *Annual review of genomics and human genetics* vol. 13 (2012): 151-70. doi:10.1146/annurev-genom-090711-163814
+
 [^9]: Human Microbiome Project Consortium. (2012). Structure, function and diversity of the healthy human microbiome. Nature, 486, 207–214.
-[^10]: Kelly, B. J., et al. (2015). Power and sample-size estimation for microbiome studies using pairwise distances and PERMANOVA. Bioinformatics, 31(15), 2461–2468.
-[^11]: Lin, H., & Peddada, S. D. (2023). Analysis of compositions of microbiomes with bias correction 2 (ANCOM-BC2). Nature Communications, 14, 1918.
+
+[^10]: Kelly, Brendan J et al. “Power and sample-size estimation for microbiome studies using pairwise distances and PERMANOVA.” *Bioinformatics* (Oxford, England) vol. 31,15 (2015): 2461-8. doi:10.1093/bioinformatics/btv183
+
+[^11]:  Lin, Huang, and Shyamal Das Peddada. “Analysis of compositions of microbiomes with bias correction.” *Nature communications* vol. 11,1 3514. 14 Jul. 2020, doi:10.1038/s41467-020-17041-7
+
 [^12]: Lopez-Siles, M., et al. (2017). Faecalibacterium prausnitzii: from microbiology to diagnostics and prognostics. ISME Journal, 11, 841–852.
-[^13]: Lozupone, C. A., et al. (2011). Diversity, stability and resilience of the human gut microbiota. Nature, 489, 220–230.
-[^14]: Lu, J., et al. (2017). Bracken: estimating species abundance in metagenomics data. PeerJ Computer Science, 3, e104.
-[^15]: McMurdie, P. J., & Holmes, S. (2013). phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data. PLoS ONE, 8(4), e61217.
-[^16]: Nearing, J. T., et al. (2022). Microbiome differential abundance methods produce different results across 38 datasets. Nature Communications, 13, 342.
+
+[^13]:  Lozupone, Catherine A et al. “Diversity, stability and resilience of the human gut microbiota.” *Nature* vol. 489,7415 (2012): 220-30. doi:10.1038/nature11550
+
+[^14]:  Lu, Jennifer et al. “Bracken: estimating species abundance in metagenomics data.” *PeerJ. Computer science* vol. 3 (2017): e104. doi:10.7717/peerj-cs.104
+
+[^15]:  McMurdie, Paul J, and Susan Holmes. “phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data.” *PloS one* vol. 8,4 e61217. 22 Apr. 2013, doi:10.1371/journal.pone.0061217 
+
+[^16]:  Nearing, Jacob T et al. “Microbiome differential abundance methods produce different results across 38 datasets.” *Nature communications* vol. 13,1 342. 17 Jan. 2022, doi:10.1038/s41467-022-28034-z 
+
 [^17]: Oksanen, J., et al. (2022). vegan: Community Ecology Package. R package version 2.6-4.
-[^18]: Quince, C., et al. (2017). Shotgun metagenomics, from sampling to analysis. Nature Biotechnology, 35, 833–844.
-[^19]: Sonnenburg, J. L., & Bäckhed, F. (2016). Diet–microbiota interactions as moderators of human metabolism. Nature, 535, 56–64.
-[^20]: Wood, D. E., Lu, J., & Langmead, B. (2019). Improved metagenomic analysis with Kraken 2. Genome Biology, 20, 257.
+
+[^18]:  Quince, Christopher et al. “Shotgun metagenomics, from sampling to analysis.” *Nature biotechnology* vol. 35,9 (2017): 833-844. doi:10.1038/nbt.3935
+
+[^19]:  Sonnenburg, Justin L, and Fredrik Bäckhed. “Diet-microbiota interactions as moderators of human metabolism.” *Nature* vol. 535,7610 (2016): 56-64. doi:10.1038/nature18846
+
+[^20]:  Wood, Derrick E et al. “Improved metagenomic analysis with Kraken 2.” *Genome biology* vol. 20,1 257. 28 Nov. 2019, doi:10.1186/s13059-019-1891-0
+
 [^21]: Dahl, W. J., et al. (2021). Diet and the intestinal virome are interrelated and associated with host genetics. Cell Host & Microbe.
 [^22]: Ghozlane, A., et al. (2025). Meteor2: improved metagenomic profiling of the human gut microbiome. Bioinformatics.
 [^23]: Marić, J., et al. (2024). False positive reduction in Kraken2 with long reads. Genome Biology.
@@ -248,4 +268,5 @@ In conclusion, while no statistically significant differences between vegan and 
 [^25]: Sokol, H., et al. (2009). Faecalibacterium prausnitzii is an anti-inflammatory commensal bacterium identified by gut microbiota analysis of Crohn disease patients. PNAS, 105(43), 16731–16736.
 [^26]: Takeuchi, T., et al. (2021). Lactic acid bacteria and Phocaeicola vulgatus in gut microbiome shifts. Cell Host & Microbe.
 [^27]: Waters, J. L., & Ley, R. E. (2019). The human gut bacteria Christensenellaceae are widespread, heritable, and associated with health. BMC Biology, 17, 83.
-[^28]: De Filippis, Francesca et al. “Distinct Genetic and Functional Traits of Human Intestinal Prevotella copri Strains Are Associated with Different Habitual Diets.” Cell host & microbe vol. 25,3 (2019): 444-453.e3. doi:10.1016/j.chom.2019.01.004
+
+[^28]:  De Filippis, Francesca et al. “Distinct Genetic and Functional Traits of Human Intestinal Prevotella copri Strains Are Associated with Different Habitual Diets.” Cell host & microbe vol. 25,3 (2019): 444-453.e3. doi:10.1016/j.chom.2019.01.004
