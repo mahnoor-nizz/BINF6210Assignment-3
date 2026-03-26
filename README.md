@@ -153,11 +153,13 @@ Beta diversity was assessed using Bray Curtis dissimilarity and Jaccard distance
 Differential abundance analysis was performed using ANCOM-BC2 at the genus level. After filtering taxa present in fewer than 10% of samples, 38 genera were retained for analysis. No genera reached statistical significance after Holm multiple testing correction (q < 0.05; Figure 8). ANCOM-BC2 explicitly warned that variance estimation may be unstable given the sample size of n = 3 per group, which is below the recommended minimum of 5 per group.
 Despite the lack of statistically significant results, the log fold change estimates were able to reveal meaningful biological trends. Genera with the largest positive fold changes in vegans included Segatella (LFC = +2.58) and Ruminococcus (LFC = +2.52), both consistent with plant-based dietary patterns and fibre fermentation. Genera with the largest negative fold changes in vegans (i.e., higher in omnivores) included Mediterraneibacter (LFC = -2.25) and Lachnospira (LFC = -2.14). These trends are biologically plausible but should be interpreted cautiously given the low statistical power.
 Structural zero analysis identified 17 genera completely absent in one diet group but present in the other (Table 4).
+
 ---
 
 ![Differential Abundance Dot Plot](figures/fig8_differential_abundance.png)
 
 **Figure 8.** ANCOM-BC2 differential abundance results at the genus level. Each point represents one genus; the x-axis shows the log fold change (vegan vs. omnivore). Error bars indicate the standard error of the log fold change estimate. The red dashed line indicates no difference (LFC = 0). Points are coloured by direction: blue = higher in vegan, red = higher in omnivore. No genera reached statistical significance after Holm correction (n = 3 per group).
+
 ---
 
 **Table 4.** Selected taxa with structural zeroes in one diet group only (completely absent in one group, present in the other).
